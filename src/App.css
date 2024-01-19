@@ -1,0 +1,173 @@
+*{
+  background: #2E3440;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+/* #root{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+} */
+
+
+body{
+  font-size: 16px;
+  line-height: 1.5;
+  color: #D8DEE9;
+  overflow: hidden;
+}
+
+
+.input-container {
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%; 
+}
+
+.textarea:focus{
+  outline: none;
+  border: 2px solid #5E81AC;
+}
+
+.markdown{
+  outline: none;
+  border: 2px solid #5a8cc8;
+  font-size: 14px;
+}
+
+
+
+.textarea, .markdown {
+  width: 700px;
+  height: 400px;
+  margin: 20px;
+  border-radius: 4px;
+  /* font-size: 16px; */
+  resize: none;
+  color: #ECEFF4;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  min-height: 100px; 
+  font-size: 20px;
+  background-color: #2E3440;
+  color: #E5E9F0;
+  box-shadow: 0px 4px 6px rgba(94, 129, 172, 0.6);
+  border-radius: 5px;
+  margin-bottom: 2%;
+
+  margin-left: 29%;
+  margin-right: 28%;
+
+}
+
+.myButton button{
+  background-color: #5E81AC;
+  width: 155px;
+  border: none;
+  color: #E5E9F0;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(94, 129, 172, 0.6);
+
+  position: absolute;
+  left: 50.9%;
+  transition: all 0.3s ease-in-out;
+
+}
+
+.importButton button{
+  background-color: #5E81AC;
+  width: 155px;
+  border: none;
+  color: #E5E9F0;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(94, 129, 172, 0.6);
+
+  position: absolute;
+  left: 37.3%;
+  transition: all 0.3s ease-in-out;
+
+
+
+}
+
+
+.myButton button:hover{
+  background-color: #81A1C1;
+}
+
+.welcomeUser{
+  width: 60%;
+  font-size: 20px;
+  color: #E5E9F0;
+  margin-bottom: 2%;
+
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 70%); 
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+.backLobby a{
+  text-decoration: underline;
+  color: #E5E9F0;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 70%);
+  margin-top: 5%;
+}
+
+.buttonNotes button{
+  background-color: #5E81AC;
+  width: 155px;
+  border: none;
+  color: #E5E9F0;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(94, 129, 172, 0.6);
+
+  position: absolute;
+  left: 37.3%;
+  transition: all 0.3s ease-in-out;
+
+}
+
+.buttonNotes button:hover{
+  background-color: #81A1C1;
+}
+
+.file-info{
+  /* Center the text */
+  text-align: center;
+  font-size: 15px;
+  color: #E5E9F0;
+  margin-top: -2%;
+}
