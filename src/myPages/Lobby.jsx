@@ -14,7 +14,7 @@ function Lobby() {
       </div>
 
       <div className="welcomeUser" style={{ marginTop: "10px" }}>
-        <h1>
+        <h1 className="h1Title">
           Transform concepts,{" "}
           <span className="underline">craft your world.</span>
         </h1>

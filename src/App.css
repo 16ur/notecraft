@@ -1,7 +1,6 @@
-*{
-  background: #2E3440;
-  font-family: 'Roboto', sans-serif;
-
+* {
+  background: #2e3440;
+  font-family: "Roboto", sans-serif;
 }
 
 /* #root{
@@ -12,42 +11,39 @@
   height: 100vh;
 } */
 
-
-body{
+body {
   font-size: 16px;
   line-height: 1.5;
-  color: #D8DEE9;
+  color: #d8dee9;
   overflow: hidden;
 }
-
 
 .input-container {
   display: flex;
   margin-left: 10%;
-  margin-right: 10%; 
+  margin-right: 10%;
 }
 
-.textarea:focus{
+.textarea:focus {
   outline: none;
-  border: 2px solid #5E81AC;
+  border: 2px solid #5e81ac;
 }
 
-.markdown{
+.markdown {
   outline: none;
   border: 2px solid #5a8cc8;
   font-size: 14px;
 }
 
-
-
-.textarea, .markdown {
+.textarea,
+.markdown {
   width: 700px;
   height: 400px;
   margin: 20px;
   border-radius: 4px;
   /* font-size: 16px; */
   resize: none;
-  color: #ECEFF4;
+  color: #eceff4;
 }
 
 .header {
@@ -56,24 +52,23 @@ body{
   align-items: center;
   justify-content: center;
   width: 40%;
-  min-height: 100px; 
+  min-height: 100px;
   font-size: 20px;
-  background-color: #2E3440;
-  color: #E5E9F0;
+  background-color: #2e3440;
+  color: #e5e9f0;
   box-shadow: 0px 4px 6px rgba(94, 129, 172, 0.6);
   border-radius: 5px;
   margin-bottom: 2%;
 
   margin-left: 29%;
   margin-right: 28%;
-
 }
 
-.myButton button{
-  background-color: #5E81AC;
+.myButton button {
+  background-color: #5e81ac;
   width: 155px;
   border: none;
-  color: #E5E9F0;
+  color: #e5e9f0;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
@@ -86,14 +81,13 @@ body{
   position: absolute;
   left: 50.9%;
   transition: all 0.3s ease-in-out;
-
 }
 
-.importButton button{
-  background-color: #5E81AC;
+.importButton button {
+  background-color: #5e81ac;
   width: 155px;
   border: none;
-  color: #E5E9F0;
+  color: #e5e9f0;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
@@ -106,45 +100,43 @@ body{
   position: absolute;
   left: 37.3%;
   transition: all 0.3s ease-in-out;
-
-
-
 }
 
-
-.myButton button:hover{
-  background-color: #81A1C1;
+.myButton button:hover {
+  background-color: #81a1c1;
 }
 
-.welcomeUser{
+.welcomeUser {
   width: 60%;
   font-size: 20px;
-  color: #E5E9F0;
-  margin-bottom: 2%;
-
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, 70%); 
+  color: #e5e9f0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 2px;
+}
+.h1Title {
+  margin-top: 20%;
 }
 
-.underline{
+.underline {
   text-decoration: underline;
 }
 
-.backLobby a{
+.backLobby a {
   text-decoration: underline;
-  color: #E5E9F0;
+  color: #e5e9f0;
   position: absolute;
   left: 50%;
   transform: translate(-50%, 70%);
   margin-top: 5%;
 }
 
-.buttonNotes button{
-  background-color: #5E81AC;
+.buttonNotes button {
+  background-color: #5e81ac;
   width: 155px;
   border: none;
-  color: #E5E9F0;
+  color: #e5e9f0;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
@@ -153,21 +145,17 @@ body{
   border-radius: 5px;
   cursor: pointer;
   box-shadow: 0px 4px 6px rgba(94, 129, 172, 0.6);
-
-  position: absolute;
-  left: 37.3%;
   transition: all 0.3s ease-in-out;
-
 }
 
-.buttonNotes button:hover{
-  background-color: #81A1C1;
+.buttonNotes button:hover {
+  background-color: #81a1c1;
 }
 
-.file-info{
+.file-info {
   /* Center the text */
   text-align: center;
   font-size: 15px;
-  color: #E5E9F0;
+  color: #e5e9f0;
   margin-top: -2%;
 }
